@@ -28,7 +28,7 @@ export default function Home() {
       <article
         className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
-        <Layout className="!pt-20 md:!pt-16 sm:!pt-20 ">
+        <Layout className="!pt-30 md:!pt-28 sm:!pt-28 ">
           <div className="flex w-full items-start justify-between lg:flex-col">
             <div className="w-1/2  md:inline-block md:w-full lg:m-auto lg:w-full" >
               <Image

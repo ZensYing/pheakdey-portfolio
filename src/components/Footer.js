@@ -17,9 +17,8 @@ const Footer = () => {
           <Link
             href="https://sounsoratha.online/"
             target="_blank"
-            className="underline underline-offset-2"
-          >
-            Soun Soratha ( Full Stack Web Developer )
+            className="underline underline-offset-2">
+            Soun Soratha 
           </Link>
         </div>
 
