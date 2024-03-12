@@ -11,7 +11,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import telegram from "../../public/images/svgs/telegram.svg"
 
 export default function Home() {
-  
+
   return (
     <>
       <Head>
@@ -35,8 +35,8 @@ export default function Home() {
                 src={profilePic}
                 alt="CodeBucks"
                 className="h-auto  rounded-full overflow-hidden "
-                sizes="100vw" 
-                priority 
+                sizes="100vw"
+                priority
               />
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
@@ -45,10 +45,10 @@ export default function Home() {
                 className="!text-left  xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"
               />
               <h1 className="w-full text-4xl font-bold bg-gradient-to-r from-sky-500 to-fuchsia-600 bg-clip-text text-transparent dark:text-light md:text-3xl sm:text-2xl">
-              Content Creator , Content Writer
-                </h1>
+                Content Creator , Content Writer
+              </h1>
               <p className="my-4 text-xl  font-medium md:text-sm sm:!text-xs  ">
-              I am an experienced Content Creator and Writer. I make interesting and useful online content. I am good at researching, SEO (making sure people can find my content on the internet), and online marketing. I love telling stories and paying attention to small details. My goal is to make content that people like and that helps them connect with each other.
+                I am an experienced Content Creator and Writer. I make interesting and useful online content. I am good at researching, SEO (making sure people can find my content on the internet), and online marketing. I love telling stories and paying attention to small details. My goal is to make content that people like and that helps them connect with each other.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
@@ -75,9 +75,9 @@ export default function Home() {
                   md:p-2 md:px-4 md:text-base
                    `} target="_blank"
                 >
-                  Contact 
+                  Contact
                 </Link>
-                
+
               </div>
             </div>
           </div>
