@@ -62,15 +62,15 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
+              position="Content Creator & Writer"
+              company="Technology Cambodia"
+              companyLink="https://tech-cambodia.com/"
               time="2022-Present"
               address="Mountain View, CA"
               work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             />
 
-            <Details
+            {/* <Details
               position="Intern"
               company="Facebook"
               companyLink="https://facebook.com"
@@ -112,7 +112,7 @@ const Experience = () => {
               work="Assisted in teaching a course on computer programming, held office
               hours to help students with assignments, and graded exams and
               assignments."
-            />
+            /> */}
           </ul>
         </div>
         </div>

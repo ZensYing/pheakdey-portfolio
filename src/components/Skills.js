@@ -45,16 +45,16 @@ const Skills = () => {
 
         <Skill name="HTML" x="-20vw" y="2vw" />
 
-          <Skill name="Photoshop" x="-5vw" y="-10vw" />
-          <Skill name="Illustrator" x="20vw" y="6vw" />
-          <Skill name="Illustrator" x="0vw" y="12vw" />
-          <Skill name="Illustrator" x="-20vw" y="-15vw" />
-          <Skill name="Illustrator" x="15vw" y="-12vw" />
-          <Skill name="Illustrator" x="-35vw" y="-5vw" />
-          <Skill name="Illustrator" x="32vw" y="-5vw" />
-          <Skill name="Illustrator" x="0vw" y="-20vw" />
+          <Skill name="Microsoft Word" x="-5vw" y="-10vw" />
+          <Skill name="MIcrosoft Execel" x="20vw" y="6vw" />
+          <Skill name="Microsoft Power Point" x="0vw" y="12vw" />
+          <Skill name="Adobe Photoshop" x="-20vw" y="-15vw" />
+          <Skill name="Adobe Illustrator" x="15vw" y="-12vw" />
+          <Skill name="Internet" x="-35vw" y="-5vw" />
+          <Skill name="Email" x="32vw" y="-5vw" />
+          {/* <Skill name="Illustrator" x="0vw" y="-20vw" />
           <Skill name="Illustrator" x="-25vw" y="18vw" />
-          <Skill name="Illustrator" x="28vw" y="18vw" />
+          <Skill name="Illustrator" x="28vw" y="18vw" /> */}
     </div></>
   );
 };

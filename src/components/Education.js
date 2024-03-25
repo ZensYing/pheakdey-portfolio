@@ -15,7 +15,9 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+          {type}
+        </h3>
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {place}
         </span>
@@ -35,7 +37,9 @@ const Education = () => {
 
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        Education
+      </h2>
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
@@ -44,25 +48,86 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Bachelor of Science in Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            type="Sok An Prey Melong High School"
+            time="2018-2019"
+            place="Finished grade 12"
+            info=""
           />
 
           <Details
-            type="Master of Computer Science"
+            type="Setec Institute "
             time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            place="Finished Year 1"
+            info=""
           />
 
-          <Details
+          {/* <Details
             type="Online Coursework"
             time="2016-2020"
             place="Coursera and edX"
             info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+          /> */}
+        </ul>
+      </div>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 mt-14">
+       Interest / Hobbies
+      </h2>
+
+      <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
+        <motion.div
+          className="absolute left-9 top-0 w-[4px] md:w-[2px] md:left-[30px] xs:left-[20px] h-full bg-dark  origin-top rounded-full dark:bg-primaryDark dark:shadow-3xl"
+          style={{ scaleY: scrollYProgress }}
+        />
+        <ul className="w-full flex flex-col items-start justify-between ml-4">
+          <Details
+            type="Personal Blogging"
+            time=""
+            place=""
+            info="I maintain a personal blog where I share my thoughts, experiences, and expertise on various topics, showcasing my writing skills and ability to engage with an audience."
           />
+
+          <Details
+            type=" Fiction Writing "
+            time=""
+            place=""
+            info="I am passionate about creative writing and often work on crafting short stories or novels in my free time, demonstrating my ability to tell captivating narratives and develop compelling characters."
+          />
+            <Details
+            type=" Photography for Content Creation "
+            time=""
+            place=""
+            info="I enjoy photography as a means to visually enhance my content, capturing moments and scenes that complement my written work and engage readers on a deeper level."
+          />
+            <Details
+            type=" Literary Exploration"
+            time=""
+            place=""
+            info=" I am an avid reader, constantly exploring diverse genres and authors to broaden my literary knowledge and refine my writing style."
+          />
+            <Details
+            type="Journaling for Reflection and Inspiration"
+            time=""
+            place=""
+            info=" I regularly keep a journal to reflect on my thoughts and experiences, using it as a source of inspiration for future content ideas and personal growth as a writer."
+          />
+            <Details
+            type=" Graphic Design for Visual Content "
+            time=""
+            place=""
+            info=" I have basic graphic design skills, which I utilize to create visually appealing graphics and promotional materials for my online platforms, enhancing the overall presentation of my content."
+          />
+             <Details
+            type="Video Production for Multimedia Content"
+            time=""
+            place=""
+            info=" I dabble in video production, creating multimedia content such as vlogs and tutorials to complement my written work and cater to different audience preferences."
+          />
+          {/* <Details
+      type="Online Coursework"
+      time="2016-2020"
+      place="Coursera and edX"
+      info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+    /> */}
         </ul>
       </div>
     </div>
