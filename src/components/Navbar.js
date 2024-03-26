@@ -70,7 +70,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="w-full flex items-center justify-between px-32 py-8 font-medium z-10 dark:text-light
+    <header className="w-full flex items-center  justify-between px-32 py-8 font-medium z-10 dark:text-light
     lg:px-16 fixed z-1 md:px-12 sm:px-8 
     ">
       
@@ -86,6 +86,7 @@ const Navbar = () => {
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? 'opacity-0' : 'opacity-100'} my-0.5`}></span>
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
       </button>
+      
 
       <div className="w-full flex justify-between items-center lg:hidden"
       >
@@ -170,7 +171,7 @@ const Navbar = () => {
 
       <motion.div className="min-w-[70vw] sm:min-w-[90vw] flex justify-between items-center flex-col fixed top-1/2 left-1/2 -translate-x-1/2
       -translate-y-1/2
-      py-32 bg-dark/90 dark:bg-light/75 rounded-lg z-50 backdrop-blur-md
+      py-32 bg-dark/90 dark:bg-light rounded-lg z-50 backdrop-blur-md
       "
       initial={{scale:0,x:"-50%",y:"-50%", opacity:0}}
       animate={{scale:1,opacity:1}}
@@ -257,6 +258,7 @@ const Navbar = () => {
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
         <Logo />
+        
       </div>
     </header>
   );

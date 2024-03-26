@@ -40,14 +40,14 @@ const Skills = () => {
         <motion.div whileHover={{scale:1.05}} className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
         dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
         ">
-        Content Creator
+        My Skills
       </motion.div>
 
         <Skill name="HTML" x="-20vw" y="2vw" />
 
-          <Skill name="Microsoft Word" x="-5vw" y="-10vw" />
-          <Skill name="MIcrosoft Execel" x="20vw" y="6vw" />
-          <Skill name="Microsoft Power Point" x="0vw" y="12vw" />
+          <Skill name="Microsoft Word" x="-5vw" y="-23vw" />
+          <Skill name="MIcrosoft Execel" x="25vw" y="6vw" />
+          <Skill name="Microsoft Power Point" x="0vw" y="18vw" />
           <Skill name="Adobe Photoshop" x="-20vw" y="-15vw" />
           <Skill name="Adobe Illustrator" x="15vw" y="-12vw" />
           <Skill name="Internet" x="-35vw" y="-5vw" />

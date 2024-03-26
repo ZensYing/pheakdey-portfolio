@@ -95,7 +95,7 @@ export default function About() {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-4xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={700} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -105,7 +105,7 @@ export default function About() {
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-4xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={100} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -113,7 +113,7 @@ export default function About() {
                   Content Creator
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center xl:items-center">
+              {/* <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={100} />+
                 </span>
@@ -121,14 +121,14 @@ export default function About() {
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Content Creator
                 </h2>
-              </div>
+              </div> */}
 
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-4xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={2} />+
                 </span>
                 <h2 className="mb-4 text-xl text-right font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm">
+                xl:text-center md:text-lg sm:text-sm xs:text-sm">
                   Years of experience <br /> at Technology Cambodia
                 </h2>
               </div>

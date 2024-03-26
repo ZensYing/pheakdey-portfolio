@@ -30,11 +30,11 @@ export default function Home() {
       >
         <Layout className="!pt-30 md:!pt-28 sm:!pt-28 ">
           <div className="flex w-full items-start justify-between lg:flex-col">
-            <div className="w-1/2  md:inline-block md:w-full lg:m-auto lg:w-full" >
+            <div className="w-1/2 flex items-center justify-center md:inline-block md:w-full lg:m-auto lg:w-full" >
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="h-auto  rounded-full overflow-hidden "
+                className="h-auto w-[30rem]  rounded-full overflow-hidden "
                 sizes="100vw"
                 priority
               />
@@ -68,7 +68,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="https://telegram.me/Soratha_Soun"
+                  href="https://telegram.me/PremPheakdey"
                   className={`flex items-center rounded-lg border-2 border-solid bg-teal-600 p-2.5 px-6 ml-2 text-lg font-semibold
                   capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
                   dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
